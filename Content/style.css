@@ -1422,7 +1422,7 @@ p {
 .hero-slider {
     background: #fff;
     overflow: hidden;
-    margin-bottom: -20px;
+    margin-bottom: 0px;
 }
 
     .hero-slider .single-slider {
