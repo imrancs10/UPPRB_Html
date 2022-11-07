@@ -48,6 +48,14 @@
     <link rel="stylesheet" href="Content/style.css">
     <link href="Content/simple.min.css" rel="stylesheet">
     <link rel="stylesheet" href="Content/whack.css?v=1.0">
+
+    <style>
+        .pagination {
+            text-align: left;
+            margin: 0px 0px 0px 0px;
+            display: flex;
+        }
+    </style>
 </head>
 <body>
 
@@ -302,13 +310,14 @@
 
                                     <div id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ucg1_divSearch" style="display:block;">
                                         <div class="border_line hidden-xs">
-                                            <div class="col-md-6 col-sm-6">
+                                            <div class="col-6" style=" float: left;">
                                                 <div class="form-inline">
                                                     <div class="form-group">
                                                         <label class="sr-only">Email</label>
                                                         <p class="form-control-static">Display</p>
+                                                        <br />
                                                     </div>
-                                                    <div class="form-group">
+                                                    <div class="form-group" style="width: 8%;">
                                                         <select name="ctl00$ctl00$ContentPlaceHolder1$ContentPlaceHolder1$ucg1$ddlShowPerPage" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ctl00$ContentPlaceHolder1$ContentPlaceHolder1$ucg1$ddlShowPerPage\&#39;,\&#39;\&#39;)&#39;, 0)" id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ucg1_ddlShowPerPage" tabindex="1" class="form-control">
                                                             <option selected="selected" value="20">20</option>
                                                             <option value="24">24</option>
@@ -320,9 +329,9 @@
                                                     <p class="form-control-static">Per Page</p>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6 col-sm-6 text_alain_r">
-                                                <div class="form-inline">
-                                                    <div class="form-group">
+                                            <div class="col-6 text_alain_r" style=" float: right;">
+                                                <div class="form-inline"  style=" float: right;">
+                                                    <div class="form-group" style=" float: right;">
 
 
                                                         <p class="form-control-static">
@@ -340,7 +349,7 @@
 
                                                         </select>
                                                     </div>
-                                                    <input type="submit" name="ctl00$ctl00$ContentPlaceHolder1$ContentPlaceHolder1$ucg1$btnSearch" value="Search" id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ucg1_btnSearch" tabindex="3" title="Click Here" class="btn btn-success" />
+                                                    <input type="submit" name="ctl00$ctl00$ContentPlaceHolder1$ContentPlaceHolder1$ucg1$btnSearch" value="Search" id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ucg1_btnSearch" tabindex="3" title="Click Here" style="margin-top: 21px; /* margin: 27px; */ margin-left: 10px;" class="btn btn-success" />
                                                 </div>
                                             </div>
                                         </div>
@@ -350,6 +359,7 @@
 
 
                                                 <span id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ucg1_rptWhatsnewpage_ctl01_spnLink">
+                                             
                                                 <li>
                                                     <a href='https://youtu.be/KLF_9L6UD8U' title='Click to view more' target='_blank'>Welcome speech by the Organizing Secretary, Dr.Amita Singh during the inaugural function of one day workshop on topic "Basic Research Techniques and Practices of Laboratory Animal Care”  <span class='whatsnew'>[ Notice Board ]</span></a></span>
                                                     <p class="date">
@@ -360,10 +370,9 @@
                                                 </li>
 
 
-
                                                 <span id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ucg1_rptWhatsnewpage_ctl02_spnLink">
                                                 <li>
-                                                    <a href='../MediaGallery/Dr_anju_verma.pdf' title='Click here to view more' target='_blank'>Dr. Anuj Varma has joined this university as Assistant Professor in Dept. of Pediatric Surgery. <span class='whatsnew'>[ Download ]</span></a><br /><span class='size'><img src='../Images/pdf.png' title='PDF File' alt='PDF File'> Size: 255 KB</span><br /><br /></span>
+                                                    <a href='../MediaGallery/Dr_anju_verma.pdf' title='Click here to view more' target='_blank'>Dr. Anuj Varma has joined this university as Assistant Professor in Dept. of Pediatric Surgery. <span class='whatsnew'>[ Download ]</span></a><br /><span class='size'><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Size: 255 KB</span><br /><br /></span>
                                                     <p class="date">
                                                         Date :
                                                         26/10/2022
@@ -375,7 +384,7 @@
 
                                                 <span id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ucg1_rptWhatsnewpage_ctl03_spnLink">
                                                 <li>
-                                                    <a href='../MediaGallery/COMM22102022.jpg' title='Click here to view more' target='_blank'>Office Order regarding website Updation <span class='whatsnew'>[ Download ]</span></a><br /><span class='size'><img src='../Images/imgFile.png' title='Image File' alt='Image File'> Size: 52 KB</span><br /><br /></span>
+                                                    <a href='../MediaGallery/COMM22102022.jpg' title='Click here to view more' target='_blank'>Office Order regarding website Updation <span class='whatsnew'>[ Download ]</span></a><br /><span class='size'><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Size: 52 KB</span><br /><br /></span>
                                                     <p class="date">
                                                         Date :
                                                         22/10/2022
@@ -387,7 +396,7 @@
 
                                                 <span id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ucg1_rptWhatsnewpage_ctl04_spnLink">
                                                 <li>
-                                                    <a href='../MediaGallery/UG20221022.pdf' title='Click here to view more' target='_blank'>Instructions for MBBS Admission 2022 <span class='whatsnew'>[ Download ]</span></a><br /><span class='size'><img src='../Images/pdf.png' title='PDF File' alt='PDF File'> Size: 280 KB</span><br /><br /></span>
+                                                    <a href='../MediaGallery/UG20221022.pdf' title='Click here to view more' target='_blank'>Instructions for MBBS Admission 2022 <span class='whatsnew'>[ Download ]</span></a><br /><span class='size'><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Size: 280 KB</span><br /><br /></span>
                                                     <p class="date">
                                                         Date :
                                                         22/10/2022
@@ -399,7 +408,7 @@
 
                                                 <span id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ucg1_rptWhatsnewpage_ctl05_spnLink">
                                                 <li>
-                                                    <a href='../MediaGallery/LIST_Rec.pdf' title='Click here to view more' target='_blank'>List of Eligible/Provisionally Eligible/Not Eligible candidates against advt. 21 dated; 27-07-2022. <span class='whatsnew'>[ Notice Board ]</span></a><br /><span class='size'><img src='../Images/pdf.png' title='PDF File' alt='PDF File'> Size: 1 MB</span><br /><br /></span>
+                                                    <a href='../MediaGallery/LIST_Rec.pdf' title='Click here to view more' target='_blank'>List of Eligible/Provisionally Eligible/Not Eligible candidates against advt. 21 dated; 27-07-2022. <span class='whatsnew'>[ Notice Board ]</span></a><br /><span class='size'><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Size: 1 MB</span><br /><br /></span>
                                                     <p class="date">
                                                         Date :
                                                         18/10/2022
@@ -411,7 +420,7 @@
 
                                                 <span id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ucg1_rptWhatsnewpage_ctl06_spnLink">
                                                 <li>
-                                                    <a href='../MediaGallery/List_Can_31Oct2022.pdf' title='Click here to view more' target='_blank'>Schedule of Interview for the post of Asstt. Professor, Faculty of Nursing. <span class='whatsnew'>[ Notice Board ]</span></a><br /><span class='size'><img src='../Images/pdf.png' title='PDF File' alt='PDF File'> Size: 2 MB</span><br /><br /></span>
+                                                    <a href='../MediaGallery/List_Can_31Oct2022.pdf' title='Click here to view more' target='_blank'>Schedule of Interview for the post of Asstt. Professor, Faculty of Nursing. <span class='whatsnew'>[ Notice Board ]</span></a><br /><span class='size'><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Size: 2 MB</span><br /><br /></span>
                                                     <p class="date">
                                                         Date :
                                                         18/10/2022
@@ -423,7 +432,7 @@
 
                                                 <span id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ucg1_rptWhatsnewpage_ctl07_spnLink">
                                                 <li>
-                                                    <a href='../MediaGallery/LTC_3289.pdf' title='Click here to view more' target='_blank'>संकायी सदस्यों तथा गैर संकायी अधिकारीयों एवं कर्मचारियों के L.T.C  के  सम्बन्ध में कार्यालय आदेश। <span class='whatsnew'>[ Download ]</span></a><br /><span class='size'><img src='../Images/pdf.png' title='PDF File' alt='PDF File'> Size: 4 MB | Lang: Hindi</span><br /><br /></span>
+                                                    <a href='../MediaGallery/LTC_3289.pdf' title='Click here to view more' target='_blank'>संकायी सदस्यों तथा गैर संकायी अधिकारीयों एवं कर्मचारियों के L.T.C  के  सम्बन्ध में कार्यालय आदेश। <span class='whatsnew'>[ Download ]</span></a><br /><span class='size'><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Size: 4 MB | Lang: Hindi</span><br /><br /></span>
                                                     <p class="date">
                                                         Date :
                                                         18/10/2022
@@ -435,7 +444,7 @@
 
                                                 <span id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ucg1_rptWhatsnewpage_ctl08_spnLink">
                                                 <li>
-                                                    <a href='../MediaGallery/Nursing_428.pdf' title='Click here to view more' target='_blank'>जी०एन०एम० एवं  ए०एन०एम० सत्र 2022 -23 के सम्बन्ध में कार्यालय आदेश।  <span class='whatsnew'>[ Download ]</span></a><br /><span class='size'><img src='../Images/pdf.png' title='PDF File' alt='PDF File'> Size: 658 KB | Lang: Hindi</span><br /><br /></span>
+                                                    <a href='../MediaGallery/Nursing_428.pdf' title='Click here to view more' target='_blank'>जी०एन०एम० एवं  ए०एन०एम० सत्र 2022 -23 के सम्बन्ध में कार्यालय आदेश।  <span class='whatsnew'>[ Download ]</span></a><br /><span class='size'><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Size: 658 KB | Lang: Hindi</span><br /><br /></span>
                                                     <p class="date">
                                                         Date :
                                                         18/10/2022
@@ -447,7 +456,7 @@
 
                                                 <span id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ucg1_rptWhatsnewpage_ctl09_spnLink">
                                                 <li>
-                                                    <a href='../MediaGallery/animal23.pdf' title='Click here to view more' target='_blank'>Basic Research Techniques and Practices of Animal Care <span class='whatsnew'>[ Notice Board ]</span></a><br /><span class='size'><img src='../Images/pdf.png' title='PDF File' alt='PDF File'> Size: 417 KB</span><br /><br /></span>
+                                                    <a href='../MediaGallery/animal23.pdf' title='Click here to view more' target='_blank'>Basic Research Techniques and Practices of Animal Care <span class='whatsnew'>[ Notice Board ]</span></a><br /><span class='size'><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Size: 417 KB</span><br /><br /></span>
                                                     <p class="date">
                                                         Date :
                                                         18/10/2022
@@ -459,7 +468,7 @@
 
                                                 <span id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ucg1_rptWhatsnewpage_ctl10_spnLink">
                                                 <li>
-                                                    <a href='../MediaGallery/55_17OCT2022.pdf' title='Click here to view more' target='_blank'>आवास वरिष्ठता सूची के सम्बन्ध में सूचना। <span class='whatsnew'>[ Notice Board ]</span></a><br /><span class='size'><img src='../Images/pdf.png' title='PDF File' alt='PDF File'> Size: 2 MB | Lang: Hindi</span><br /><br /></span>
+                                                    <a href='../MediaGallery/55_17OCT2022.pdf' title='Click here to view more' target='_blank'>आवास वरिष्ठता सूची के सम्बन्ध में सूचना। <span class='whatsnew'>[ Notice Board ]</span></a><br /><span class='size'><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Size: 2 MB | Lang: Hindi</span><br /><br /></span>
                                                     <p class="date">
                                                         Date :
                                                         17/10/2022
@@ -471,7 +480,7 @@
 
                                                 <span id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ucg1_rptWhatsnewpage_ctl11_spnLink">
                                                 <li>
-                                                    <a href='../MediaGallery/3232_14Oct2022_1.pdf' title='Click here to view more' target='_blank'>दिनांक 30 जून, 2022 तक पदोन्नति हेतु अर्ह के सम्बन्ध में सूचना।  <span class='whatsnew'>[ Notice Board ]</span></a><br /><span class='size'><img src='../Images/pdf.png' title='PDF File' alt='PDF File'> Size: 1 MB | Lang: Hindi</span><br /><br /></span>
+                                                    <a href='../MediaGallery/3232_14Oct2022_1.pdf' title='Click here to view more' target='_blank'>दिनांक 30 जून, 2022 तक पदोन्नति हेतु अर्ह के सम्बन्ध में सूचना।  <span class='whatsnew'>[ Notice Board ]</span></a><br /><span class='size'><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Size: 1 MB | Lang: Hindi</span><br /><br /></span>
                                                     <p class="date">
                                                         Date :
                                                         15/10/2022
@@ -483,7 +492,7 @@
 
                                                 <span id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ucg1_rptWhatsnewpage_ctl12_spnLink">
                                                 <li>
-                                                    <a href='../MediaGallery/Social_media_incharge_14102022.pdf' title='Click here to view more' target='_blank'>विश्वविद्यालय के सोशल मीडिया प्रभारी नामित किये जाने के सम्बन्ध में।  <span class='whatsnew'>[ Download ]</span></a><br /><span class='size'><img src='../Images/pdf.png' title='PDF File' alt='PDF File'> Size: 368 KB | Lang: Hindi</span><br /><br /></span>
+                                                    <a href='../MediaGallery/Social_media_incharge_14102022.pdf' title='Click here to view more' target='_blank'>विश्वविद्यालय के सोशल मीडिया प्रभारी नामित किये जाने के सम्बन्ध में।  <span class='whatsnew'>[ Download ]</span></a><br /><span class='size'><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Size: 368 KB | Lang: Hindi</span><br /><br /></span>
                                                     <p class="date">
                                                         Date :
                                                         14/10/2022
@@ -495,7 +504,7 @@
 
                                                 <span id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ucg1_rptWhatsnewpage_ctl13_spnLink">
                                                 <li>
-                                                    <a href='../MediaGallery/Notice_Reg_Classes_14102022.pdf' title='Click here to view more' target='_blank'>जी०एन०एम० एवं ए०एन०एम० पाठ्यक्रम सत्र 2022-23 के कक्षाएं प्रारम्भ होने के सम्बन्ध मैं सुचना।  <span class='whatsnew'>[ Notice Board ]</span></a><br /><span class='size'><img src='../Images/pdf.png' title='PDF File' alt='PDF File'> Size: 224 KB | Lang: Hindi</span><br /><br /></span>
+                                                    <a href='../MediaGallery/Notice_Reg_Classes_14102022.pdf' title='Click here to view more' target='_blank'>जी०एन०एम० एवं ए०एन०एम० पाठ्यक्रम सत्र 2022-23 के कक्षाएं प्रारम्भ होने के सम्बन्ध मैं सुचना।  <span class='whatsnew'>[ Notice Board ]</span></a><br /><span class='size'><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Size: 224 KB | Lang: Hindi</span><br /><br /></span>
                                                     <p class="date">
                                                         Date :
                                                         14/10/2022
@@ -507,7 +516,7 @@
 
                                                 <span id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ucg1_rptWhatsnewpage_ctl14_spnLink">
                                                 <li>
-                                                    <a href='../MediaGallery/fpExam.pdf' title='Click here to view more' target='_blank'>Examination Scheme Oct 2022 <span class='whatsnew'>[ Download ]</span></a><br /><span class='size'><img src='../Images/pdf.png' title='PDF File' alt='PDF File'> Size: 490 KB</span><br /><br /></span>
+                                                    <a href='../MediaGallery/fpExam.pdf' title='Click here to view more' target='_blank'>Examination Scheme Oct 2022 <span class='whatsnew'>[ Download ]</span></a><br /><span class='size'><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Size: 490 KB</span><br /><br /></span>
                                                     <p class="date">
                                                         Date :
                                                         14/10/2022
@@ -531,7 +540,7 @@
 
                                                 <span id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ucg1_rptWhatsnewpage_ctl16_spnLink">
                                                 <li>
-                                                    <a href='../MediaGallery/neurosc.pdf' title='Click here to view more' target='_blank'>             चिकित्सा विश्व विद्यालय सैफई में न्यूरोसाइन्सेज विभाग द्वारा विश्व अल्जाइमर्स दिवस दिनांक 21 सितम्बर पर "Know dementia know Alzheimers" विषय पर कार्यशाला का आयोजन  <span class='whatsnew'>[ Notice Board ]</span></a><br /><span class='size'><img src='../Images/pdf.png' title='PDF File' alt='PDF File'> Size: 359 KB</span><br /><br /></span>
+                                                    <a href='../MediaGallery/neurosc.pdf' title='Click here to view more' target='_blank'>             चिकित्सा विश्व विद्यालय सैफई में न्यूरोसाइन्सेज विभाग द्वारा विश्व अल्जाइमर्स दिवस दिनांक 21 सितम्बर पर "Know dementia know Alzheimers" विषय पर कार्यशाला का आयोजन  <span class='whatsnew'>[ Notice Board ]</span></a><br /><span class='size'><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Size: 359 KB</span><br /><br /></span>
                                                     <p class="date">
                                                         Date :
                                                         13/10/2022
@@ -543,7 +552,7 @@
 
                                                 <span id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ucg1_rptWhatsnewpage_ctl17_spnLink">
                                                 <li>
-                                                    <a href='../MediaGallery/expproject12102022.pdf' title='Click here to view more' target='_blank'>Guidelines for expenditure to carry out different Funded Research Project  <span class='whatsnew'>[ Download ]</span></a><br /><span class='size'><img src='../Images/pdf.png' title='PDF File' alt='PDF File'> Size: 457 KB</span><br /><br /></span>
+                                                    <a href='../MediaGallery/expproject12102022.pdf' title='Click here to view more' target='_blank'>Guidelines for expenditure to carry out different Funded Research Project  <span class='whatsnew'>[ Download ]</span></a><br /><span class='size'><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Size: 457 KB</span><br /><br /></span>
                                                     <p class="date">
                                                         Date :
                                                         13/10/2022
@@ -579,7 +588,7 @@
 
                                                 <span id="ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ucg1_rptWhatsnewpage_ctl20_spnLink">
                                                 <li>
-                                                    <a href='../MediaGallery/Information_reg_restarting_classes_07102022.pdf' title='Click here to view more' target='_blank'>Information regarding restarting of MBBS classes <span class='whatsnew'>[ Notice Board ]</span></a><br /><span class='size'><img src='../Images/pdf.png' title='PDF File' alt='PDF File'> Size: 577 KB | Lang: Hindi</span><br /><br /></span>
+                                                    <a href='../MediaGallery/Information_reg_restarting_classes_07102022.pdf' title='Click here to view more' target='_blank'>Information regarding restarting of MBBS classes <span class='whatsnew'>[ Notice Board ]</span></a><br /><span class='size'><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Size: 577 KB | Lang: Hindi</span><br /><br /></span>
                                                     <p class="date">
                                                         Date :
                                                         07/10/2022
